@@ -72,6 +72,12 @@ Extracted per epoch:
 
 These features capture eye-movement-related activity and blink intensity.
 
+```
+CSP feature matrix shape: (520, 4)
+EOG feature matrix shape: (520, 3)
+Multimodal feature matrix shape: (520, 7)
+```
+
 ### Multimodal Feature Fusion
 
 The final feature vector is constructed as the concatenation of EEG CSP features and EOG features which produce a joint multimodal representation of neural and physiological signals.
@@ -121,9 +127,9 @@ Run: ` run_realtime_simulation.py `
 
 The real-time simulation achieved:
 
-- Offline CSP accuracy: **73.7%**
-- Real-time sliding-window accuracy: **75.4%**
-- Mean latency: **0.334 ms**
+- Offline (window-level): **70.5**
+- Real-time multimodal accuracy: **75.4%**
+- Mean latency: **0.209 ms**
 
 The similarity between offline and simulated real-time performance suggests that the CSP-based pipeline generalises well to streaming EEG scenarios.
 
