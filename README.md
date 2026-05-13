@@ -127,7 +127,7 @@ Run: ` run_realtime_simulation.py `
 
 The real-time simulation achieved:
 
-- Offline (window-level): **70.5**
+- Offline (window-level): **70.5%**
 - Real-time multimodal accuracy: **75.4%**
 - Mean latency: **0.209 ms**
 
