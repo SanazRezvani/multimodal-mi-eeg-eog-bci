@@ -21,7 +21,7 @@ The dataset is available online [here](https://www.synapse.org/Synapse:syn640052
 ## Objectives
 - Decode left vs right motor imagery
 - Build a simulated real-time BCI pipeline
-- Analyze the impact of blink and eye-movement artifacts
+- Analyse the impact of blink and eye-movement artifacts
 - Integrate EEG and EOG features into a multimodal classifier
 - Evaluate latency and prediction stability
 
